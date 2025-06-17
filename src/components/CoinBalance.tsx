@@ -13,7 +13,7 @@ export const CoinBalance: React.FC<CoinBalanceProps> = ({ balance }) => {
         <div>
           <div className="flex items-center gap-2 mb-2">
             <Coins className="w-6 h-6" />
-            <span className="text-lg font-medium">Ваш баланс</span>
+            <span className="text-lg font-medium">Баланс вашего магазина</span>
           </div>
           <div className="text-3xl font-bold">
             {balance.toLocaleString()} койнов
